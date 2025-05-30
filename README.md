@@ -41,7 +41,31 @@ In the case of the amazon warehouse enrivonment, sample is synonomous with "pick
 
 # Accompanying .txt files
 
-The repo includes 6 different 2D environments in .txt file format that the user can apply to the code. small1, small2, medium1, medium2, large1, large2
+The repo includes 11 different 2D environments in .txt file format that the user can apply to the code.
+
+The following .txt files are stored in the folder labeled "warehouses". Each .txt file represents a 2D enviromenmt of a hypothetical warehouse model in varying sizes.
+
+tiny1.txt
+
+tiny2.txt
+
+tiny3.txt 
+
+tiny4.txt
+
+small1.txt
+
+small2.txt
+
+small3.txt
+
+medium1.txt
+
+medium2.txt
+
+large1.txt
+
+large2.txt
 
 # Explanation of Nodes
 
