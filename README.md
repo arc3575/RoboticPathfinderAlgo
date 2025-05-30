@@ -8,20 +8,26 @@ The code is meant to take in a 2D model of a grid world (based on amazon warehou
 
 The code can only accept 2D grid enviroments in .txt form
 
-The .txt 2D enviroments have the following symbols:
+
+
+#The .txt 2D enviroments have the following symbols:
 
 "@" => robot or agent
+
 "_" => empty space that the robot can traverse
+
 "*" => Goal, this could be a package that the robot needs to pick up. NOTE: there can be any number of goals/packages in the 2D environment
+
 "#" => Obstacle that the robot cannot pass. The robot must find a path around obstacles
 
-Included in the repo are .txt files that represent 2D enviroments.
 
-The code can be run on the command line and accepts two arguments:
+#The code can be run on the command line and accepts two arguments:
 
 Argument #1: "dfs" or "ucs", this designates the type of algorithm being used to find the optimal path. Obviously, uniform cost search will be more efficient since it has a heuristic guiding the robot.
 
 Argument #2: Filepath to 2D enviroment being explored. This must be a .txt file in the previously mentioned format. 
+
+#Return
 
 The code will then return a path as a series of directions. The directions are limited to the four cardinal directions (up, down, left, right).
 
@@ -33,7 +39,11 @@ Originally, these algorithms were used as a hypothetical application for the NAS
 
 In the case of the amazon warehouse enrivonment, sample is synonomous with "pickup/dropoff" a amazon package.
 
-The repo includes 6 different 2D environments in .txt file format that the user can apply to the code. 
+#Accompanying .txt files
+
+The repo includes 6 different 2D environments in .txt file format that the user can apply to the code. small1, small2, medium1, medium2, large1, large2
+
+#Explanation of Nodes
 
 The code will also report the amount of "expanded nodes" and the amount of "generated nodes".
 
