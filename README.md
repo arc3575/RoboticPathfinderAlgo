@@ -10,7 +10,7 @@ The code can only accept 2D grid enviroments in .txt form
 
 
 
-#The .txt 2D enviroments have the following symbols:
+# The .txt 2D enviroments have the following symbols:
 
 "@" => robot or agent
 
@@ -21,13 +21,13 @@ The code can only accept 2D grid enviroments in .txt form
 "#" => Obstacle that the robot cannot pass. The robot must find a path around obstacles
 
 
-#The code can be run on the command line and accepts two arguments:
+# The code can be run on the command line and accepts two arguments:
 
 Argument #1: "dfs" or "ucs", this designates the type of algorithm being used to find the optimal path. Obviously, uniform cost search will be more efficient since it has a heuristic guiding the robot.
 
 Argument #2: Filepath to 2D enviroment being explored. This must be a .txt file in the previously mentioned format. 
 
-#Return
+# Returned path format
 
 The code will then return a path as a series of directions. The directions are limited to the four cardinal directions (up, down, left, right).
 
@@ -39,11 +39,11 @@ Originally, these algorithms were used as a hypothetical application for the NAS
 
 In the case of the amazon warehouse enrivonment, sample is synonomous with "pickup/dropoff" a amazon package.
 
-#Accompanying .txt files
+# Accompanying .txt files
 
 The repo includes 6 different 2D environments in .txt file format that the user can apply to the code. small1, small2, medium1, medium2, large1, large2
 
-#Explanation of Nodes
+# Explanation of Nodes
 
 The code will also report the amount of "expanded nodes" and the amount of "generated nodes".
 
